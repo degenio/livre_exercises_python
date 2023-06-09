@@ -1,0 +1,6 @@
+a = int(input('Saisir une valeur entiere 1:'))
+b = int(input('Saisir une valeur entiere 2:'))
+valeur_1 = ((a > 3) and (a < 10)) or ((4 >= b) and (b != 2))
+valeur_2 = (a > 3 and a < 10) or (4 >= b and b != 2)
+print(valeur_1)
+print(valeur_2)
